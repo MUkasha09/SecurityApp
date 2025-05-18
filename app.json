@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SecurityApp",
+    "slug": "SecurityApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.muhammadsufian59.SecurityApp"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6bead48f-cfa2-421a-9b6f-7825dd8692f4"
+      }
+    },
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}
